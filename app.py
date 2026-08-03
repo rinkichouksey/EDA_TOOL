@@ -15,7 +15,9 @@ from visualization import(
      outlier_plot,
      correlation_heatmap
 ) 
-from preprocessing import*  # * ka usse all ke liy use karte hai
+from preprocessing import *  # * ka usse all ke liy use karte hai
+from eda import *
+from utils import *
 
 st.set_page_config(
     page_title="Smart EDA Tool",
